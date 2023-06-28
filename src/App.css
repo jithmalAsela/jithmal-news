@@ -1,0 +1,16 @@
+/* styles.css */
+
+/* Add custom styles here */
+.header {
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.article {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Add more custom styles as needed */
