@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Header from '../common/header/Header';
 import { useParams, Link } from 'react-router-dom';
+import Footer from '../common/footer/Footer';
 
 const ArticlePage = () => {
   const { id } = useParams();
@@ -57,7 +58,7 @@ const ArticlePage = () => {
         <h3>Other News</h3>
         <div className="row">
           {articles.map((item) => (
-            <div className="col-md-4 mb-4" key={item.id}>
+            <div className="col-lg-4 mb-4" key={item.id}>
               <div className="card">
                 <img src={getRandomImage()} alt={item.title} className="card-img-top" />
                 <div className="card-body">
@@ -72,7 +73,9 @@ const ArticlePage = () => {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
+    
   );
 };
 

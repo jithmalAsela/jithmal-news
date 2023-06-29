@@ -2,68 +2,78 @@
 
 /* Header */
 .header {
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
-  }
-  
-  .header h1 {
-    font-size: 28px;
-  }
-  
-  /* Headline News */
-  .headline-news {
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color: #e9e6e2;
-    color: #3f09bd;
-  }
-  
-  .headline-news h3 {
-    font-size: 24px;
-  }
-  
-  .headline-news p {
-    font-size: 16px;
-  }
-  
-  /* Article */
-  .article {
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color: #e9e6e2;
-  }
-  
-  .article h3 {
-    font-size: 20px;
-  }
-  
-  .article p {
-    font-size: 14px;
-  }
-  
-  /* Button */
-  .button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #337ab7;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 4px;
-  }
-  
-  .button:hover {
-    background-color: #23527c;
-  }
-  
-  /* Footer */
-  .footer {
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-  }
-  
-  .icon-space {
-    margin-right: 10px;
-  }
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.header h1 {
+  font-size: 28px;
+}
+
+/* Headline News */
+.headline-news {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #e9e6e2;
+  color: #3f09bd;
+}
+
+.headline-news h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.headline-news p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Article */
+.article {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #e9e6e2;
+}
+
+.article h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.article p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.article-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #337ab7;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #23527c;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.icon-space {
+  margin-right: 10px;
+}
