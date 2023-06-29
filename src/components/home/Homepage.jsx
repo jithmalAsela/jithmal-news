@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../common/style.css';
+import Header from '../common/header/Header';
+import Footer from '../common/footer/Footer';
+
 
 const Homepage = () => {
   const [articles, setArticles] = useState([]);
@@ -22,17 +25,18 @@ const Homepage = () => {
   };
 
   const getRandomImage = () => {
-    const imageKeywords = ['news', 'breaking news', 'headline news', 'news article'];
-    const randomKeyword = imageKeywords[Math.floor(Math.random() * imageKeywords.length)];
-    return `https://source.unsplash.com/400x300/?${randomKeyword}`;
+    const imageUrls = [
+      'https://placeimg.com/400/300/any',
+      'https://picsum.photos/400/300'
+    ];
+    const randomIndex = Math.floor(Math.random() * imageUrls.length);
+    return imageUrls[randomIndex];
   };
+  
 
   return (
     <div>
-      <header className="header text-center bg-primary py-3">
-        <h1 className="text-uppercase text-white">News Website</h1>
-        {/* Navigation */}
-      </header>
+      <Header />
       <main className="container mt-5">
         <section>
           <div className="row">
@@ -95,9 +99,7 @@ const Homepage = () => {
           </div>
         </section>
       </main>
-      <footer className="footer text-center py-3 bg-dark text-white">
-        <p>&copy; 2023 News Website. All rights reserved.</p>
-      </footer>
+      <Footer />
     </div>
   );
 };

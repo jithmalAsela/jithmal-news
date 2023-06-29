@@ -15,8 +15,8 @@
   .headline-news {
     margin-bottom: 20px;
     padding: 20px;
-    background-color: #f5a623;
-    color: #fff;
+    background-color: #e9e6e2;
+    color: #3f09bd;
   }
   
   .headline-news h3 {
@@ -31,7 +31,7 @@
   .article {
     margin-bottom: 20px;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #e9e6e2;
   }
   
   .article h3 {
@@ -64,3 +64,6 @@
     text-align: center;
   }
   
+  .icon-space {
+    margin-right: 10px;
+  }
