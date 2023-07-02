@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate  } from 'react-router-dom';
 import '../common/style.css';
 import Header from '../common/header/Header';
 import Footer from '../common/footer/Footer';
@@ -8,6 +8,12 @@ const Homepage = () => {
   const [articles, setArticles] = useState([]);
 
   const headlineNews = articles.find((article) => article.featured);
+
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    navigate('/news');
+  }, [navigate]);
 
   useEffect(() => {
     fetchArticles();
@@ -25,7 +31,7 @@ const Homepage = () => {
 
   const getRandomImage = () => {
     const imageUrls = [
-      'https://placeimg.com/400/300/any',
+      'https://source.unsplash.com/random/400x300',
       'https://picsum.photos/400/300'
     ];
     const randomIndex = Math.floor(Math.random() * imageUrls.length);

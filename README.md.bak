@@ -19,6 +19,7 @@ Before running the project, make sure you have the following prerequisites insta
 
 - Node.js (v14.20.0)
 - NPM (6.14.17)
+- Database (e.g., MySQL, MongoDB)
 
 ## Installation
 

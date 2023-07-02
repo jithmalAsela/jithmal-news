@@ -8,9 +8,11 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Homepage />} />
+        <Route path="/news" element={<Homepage />} />
         <Route path="/article/:id" element={<ArticlePage />} />
       </Routes>
     </Router>
   );
 };
+
 export default App;
