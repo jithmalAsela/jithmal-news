@@ -17,7 +17,7 @@ const Header = () => {
           <div className="col-md-6 text-md-start">
           <Link to="/" className="header-link">
             <span className="header-icon">📰</span>
-            <h1 className="header-title">News App</h1>
+            <h1 className="header-title">DMJ News</h1>
           </Link>
          
           </div>

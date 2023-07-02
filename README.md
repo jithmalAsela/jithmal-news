@@ -28,13 +28,13 @@ Follow these steps to install and set up the project locally:
 1. Clone the repository:
 
    ```
-   git clone https://github.com/your-username/your-project.git
+   git clone https://github.com/jithmalAsela/jithmal-news.git
    ```
 
 2. Navigate to the project directory:
 
    ```
-   cd your-project
+   cd jithmal-news
    ```
 
 3. Install the dependencies:

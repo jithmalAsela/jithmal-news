@@ -11,9 +11,9 @@ const Footer = () => {
           </div>
           <div className="col-md-6">
             <h5>Contact Us</h5>
-            <p>123 Main Street, City, Country</p>
-            <p>Email: info@example.com</p>
-            <p>Phone: +1 123-456-7890</p>
+            <p>123 Street, Galle, Sri Lanka</p>
+            <p>Email: jithmal.matharage@gmail.com</p>
+            <p>Phone: +94 123456789</p>
           </div>
         </div>
         <div className="row mt-4">

@@ -15,7 +15,7 @@ const ArticlePage = () => {
 
   const fetchArticle = async () => {
     try {
-      const response = await fetch(`http://localhost:8080/api/articles/${id}`);
+      const response = await fetch(`http://localhost:8080/api/articles/getArticleById/${id}`);
       const data = await response.json();
       setArticle(data);
     } catch (error) {
